@@ -118,6 +118,7 @@ class Asset_Manager {
 			'duplicatePost',
 			$data_object
 		);
+		\wp_set_script_translations( $handle, 'duplicate-post' );
 	}
 
 	/**
